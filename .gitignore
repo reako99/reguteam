@@ -2,5 +2,5 @@
 /*.settings/
 *.project
 *.properties
-
+/target/
 /bin/
