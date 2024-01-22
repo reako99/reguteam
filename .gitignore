@@ -2,5 +2,7 @@
 /*.settings/
 *.project
 *.properties
+/.classpath
 /target/
+/.settings/
 /bin/
