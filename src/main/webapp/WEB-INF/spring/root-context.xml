@@ -15,7 +15,7 @@
 	<!-- mysql 연결 -->
 	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
 		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"></property>
-		<property name="url" value="jdbc:mysql://172.16.6.8/shy?useSSL=false&amp;serverTimezone=UTC"></property>
+		<property name="url" value="jdbc:mysql://192.168.55.136/shy?useSSL=false&amp;serverTimezone=UTC"></property>
 		<property name="username" value="root"></property>
 		<property name="password" value="1234"></property>
 	</bean>
