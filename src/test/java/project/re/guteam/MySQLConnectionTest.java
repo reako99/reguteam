@@ -24,6 +24,8 @@ public class MySQLConnectionTest {
 			System.out.println("\n >>>>>>>>>>>>> connection 출력 : " + con + "\n");
 		} catch (Exception e) {
 			e.printStackTrace();
+		} finally {
+			ds.getConnection().close();
 		}
 	}
 	
