@@ -21,9 +21,12 @@ public class MySQLConnectionTest {
 	@Test
 	public void testConnection() throws Exception{
 		try(Connection con = ds.getConnection()){
+			
 			System.out.println("\n >>>>>>>>>>>>> connection 출력 : " + con + "\n");
 		} catch (Exception e) {
 			e.printStackTrace();
+		} finally {
+			 
 		}
 	}
 	
